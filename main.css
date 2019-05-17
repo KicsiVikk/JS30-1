@@ -30,6 +30,10 @@ body {
   font-family: Arial, sans-serif;
 	align-items: center;
   vertical-align: center;
+	text-decoration: none;
+  font-family: Arial, sans-serif;
+   margin-bottom: 10px;
+	z-index: 1;
 }
 .key {
   background-color: darkgrey;
@@ -46,13 +50,7 @@ body {
 	z-index: 2;
 	
 }
-.keys {
-  text-decoration: none;
-  font-family: Arial, sans-serif;
-   margin-bottom: 10px;
-	z-index: 1;
-	
-}
+
 .key:hover {
   color: #FFFFFF;
   background-color: #000000;
