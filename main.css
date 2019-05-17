@@ -14,14 +14,25 @@ body {
 	height: 100vh;
 }
 .buttons-back {
+	position:absolute;
 	width: 80%;
-    height: 80%;
-     background-color: hsla(0, 0%, 100%, .5);
+  height: 80%;
+  background-color: hsla(0, 0%, 100%, .5);
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
 	border-radius: 40%;
+  align-items: center;
+  vertical-align: center;
+	z-index: 0;
+}
+.keys {
+	display: flex;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+	align-items: center;
+  vertical-align: center;
 }
 .key {
-   background-color: darkgrey;
+  background-color: darkgrey;
   border: 1rem;
 	border-color: black;
   color: white;
@@ -30,17 +41,17 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 24px 2px;
 	border-radius: 50%;
-	align-items: center;
-	vertical-align: center;
+	z-index: 2;
+	
 }
 .keys {
   text-decoration: none;
   font-family: Arial, sans-serif;
    margin-bottom: 10px;
+	z-index: 1;
 	
-  
 }
 .key:hover {
   color: #FFFFFF;
