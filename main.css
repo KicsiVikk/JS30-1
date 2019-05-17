@@ -22,7 +22,7 @@ body {
 }
 .key {
    background-color: darkgrey;
-  border: 1px;
+  border: 1rem;
 	border-color: black;
   color: white;
   padding: 20px;
@@ -52,3 +52,14 @@ kbd {
 	display: block;
 	font-size: 2rem;
 }
+.playing{
+	transform:scale(1.1);
+	border-color: #ffc600;
+	box-shadow: 0 0 10px #ffc600;
+}
+
+
+
+
+
+
